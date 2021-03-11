@@ -1,5 +1,8 @@
+import os
 import telebot
-from auth import TOKEN, CHTID
+
+TOKEN = os.environ('CHTID_hi456')
+CHTID = os.environ('TOKEN_VsuhMCBot')
 
 bot = telebot.TeleBot(TOKEN)
 
